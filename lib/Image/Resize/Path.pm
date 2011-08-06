@@ -7,6 +7,7 @@ use warnings;
 use base qw(Class::Accessor);
 
 use GD;
+use GD::Image;
 use Carp qw(croak carp);
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
