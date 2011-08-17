@@ -1,7 +1,5 @@
 package Image::Resize::Path;
 
-our $VERSION = 0.01;
-
 use strict;
 use warnings;
 use base qw(Class::Accessor);
@@ -215,9 +213,7 @@ sub _validate_file
 
 __END__
 
-=head1 NAME
-
-Image::Resize::Path - A lighweight wrapper to GD for mass image resizing
+# ABSTRACT: A lightweight wrapper to GD for mass image resizing
 
 =head1 SYNOPSIS
 
@@ -271,10 +267,6 @@ src_path()
     Purpose: An accessor for dest_path. This must be set.
     Input:   A string/path value.
     Output:  The current source path.
-
-=head1 AUTHOR
-
-Logan Bell <logan@orchardtech.com>
 
 =cut
 
